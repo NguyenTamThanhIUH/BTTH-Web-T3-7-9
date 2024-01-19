@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout2</title>
+    <style>
+    .wapper{
+        height: 850px;
+        width: 989px;
+        margin: 0px auto;
+        padding: 0px;
+        border: 2px solid black;
+    }
+    .header{
+        height:150px;
+        width: 989px;
+        background-color: aqua;
+        border-bottom: 2px solid black;
+    }
+    .content{
+        height: 550px;
+        width: 989px;
+        border-bottom: 2px solid black;
+    }
+    .nav{
+        height: 550px;
+        width: 30%;
+        border-right: 2px solid;
+        background-color: brown;
+        float: left;
+    }
+    .main{
+        height:550px;
+        width: 40%;
+        background-color: burlywood;
+        border-right: 2px solid;
+        float:left;
+    }
+    .section{
+        height: 550px;
+        width: calc(30% - 4px);
+        background-color: orchid;
+        float: left;
+    }
+    .footer{
+        height: 146px;
+        width: 989px;
+        background-color: rgb(208, 135, 17);
+    }
+    </style>
+
+</head>
+<body>
+    <div class="wapper">
+        <div class="header" style = "text-align: center;">
+            Header
+        </div>
+        <div class="content">
+            <div class="nav" style = "text-align: center;">
+                Nav
+            </div>
+            <div class="main" style = "text-align: center;">
+                Main
+            </div>
+            <div class="section" style = "text-align: center;">
+                Section
+            </div>
+        </div>
+        <div class="footer" style = "text-align: center;"> 
+            Footer
+        </div>
+    </div>
+</body>
+</html>
