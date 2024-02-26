@@ -1,0 +1,120 @@
+
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wrapper {
+            height: 750px;
+            width: 1000px;
+            border: 1px solid black;
+        }
+        
+        .header {
+            position: relative;
+            height: 180px;
+            width: 1000px;
+            border-bottom: 1px solid black;
+        }
+        
+        .header h1 {
+            position: absolute;
+            top: 30px;
+            left: 150px;
+        }
+        
+        .header h2 {
+            position: absolute;
+            top: 85px;
+            left: 265px;
+            color: rgb(221, 31, 31);
+            text-shadow: 11px 11px 11px rgb(167, 45, 45);
+        }
+        
+        .nav {
+            position: relative;
+            height: 570px;
+            width: 1000px;
+            background-color: burlywood;
+        }
+        
+        .menu a {
+            color: rgb(112, 39, 21);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        .menu li {
+            position: absolute;
+            width: 150px;
+            height: 50px;
+            background-color: rgb(74, 211, 133);
+            list-style-type: none;
+            border: 2px solid black;
+            border-radius: 10px 0px 10px 0px;
+        }
+        
+        .menu li:nth-child(5) {
+            top: 20px;
+            right: 50px;
+            line-height: 50px;
+            text-indent: 15px;
+        }
+        
+        .menu li:nth-child(4) {
+            top: 20px;
+            right: 230px;
+            line-height: 50px;
+            text-indent: 28px;
+        }
+        
+        .menu li:nth-child(3) {
+            top: 20px;
+            right: 410px;
+            line-height: 50px;
+            text-indent: 40px;
+        }
+        
+        .menu li:nth-child(2) {
+            top: 20px;
+            right: 590px;
+            line-height: 50px;
+            text-indent: 31px;
+        }
+        
+        .menu li:nth-child(1) {
+            top: 54px;
+            right: 790px;
+            line-height: 50px;
+            text-indent: 45px;
+            transform: rotate(-20deg);
+        }
+        
+        .menu li:hover {
+            background-color: yellowgreen;
+            transform: rotate(-10deg);
+        }
+        
+        .menu li:hover a {
+            font-style: italic;
+            color: blue;
+        }
+        
+        form input {
+            width: 90px;
+        }
+        
+        .anh1 {
+            height: 180px;
+            width: 1000px;
+            position: relative;
+        }
+        
+        .anh2 {
+            position: absolute;
+            height: 30px;
+            width: 100px;
+            bottom: 5px;
+            left: 0px;
+        }
+    
